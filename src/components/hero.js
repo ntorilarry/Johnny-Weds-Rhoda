@@ -7,7 +7,7 @@ function Hero() {
     <div id="home">
       <div className="w-full h-[90vh] top-[90px]">
         <div
-          className="w-full h-[90vh] bg-no-repeat bg-center bg-cover"
+          className="w-full h-[100vh] bg-no-repeat bg-center bg-cover"
           style={{ backgroundImage: `url(${Background})` }}
         >
           <div className="w-full h-[100%] flex flex-col justify-center items-center text-white px-4 text-center">

@@ -6,12 +6,14 @@ import Event from "./components/event"
 import Registry from "./components/registry";
 import Location from "./components/location";
 import Footer from "./components/footer";
+import Facts from "./components/facts";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
+      <Facts/>
       <People/>
       <Event/>
       <Registry/>
