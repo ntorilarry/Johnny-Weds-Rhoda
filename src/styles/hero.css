@@ -1,0 +1,51 @@
+.bride_name_heading {
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    color: rgb(97, 47, 47);
+    font-weight: 700;
+    line-height: 0.5;
+}
+
+.bride_name_sub {
+
+    color: rgb(97, 47, 47);
+    font-size: 1.5rem;
+}
+
+.bride_name_and {
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(97, 47, 47);
+    font-size: 2rem;
+}
+
+.groom_name_heading {
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    color: rgb(97, 47, 47);
+    font-weight: 700;
+    line-height: 0.5;
+}
+
+.groom_name_sub {
+
+    color: rgb(97, 47, 47);
+    font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .bride_name_heading {
+        font-size: 3rem;
+    }
+
+    .bride_name_sub {
+        font-size: 1rem;
+    }
+
+    .groom_name_heading {
+        font-size: 3rem;
+    }
+
+    .groom_name_sub {
+        font-size: 1rem;
+    }
+}
