@@ -1,118 +1,39 @@
 import React from "react";
 import "../styles/people.css";
 
-const people = [
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-  {
-    name: "Michael Foster",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-  },
-
-  // More people...
-];
-
 function People() {
   return (
-    <div className="bg-white people" id="people">
-      <div className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
-        <div className="space-y-8 sm:space-y-12">
-          <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl people-head">
-              People
-            </h2>
-            <p className="text-xl text-gray-500 people-sub">
-              Bridesmaids and Groomsmen
-            </p>
+    <div>
+      <div className="py-0 xl:py-0 px-4 sm:px-6 lg:px-8 bg-[#d3b580] overflow-hidden">
+        <div className="max-w-max lg:max-w-7xl mx-auto">
+          <div className="relative z-10 mb-8 md:mb-2 md:px-6">
+            <div className="text-base max-w-prose lg:max-w-none">
+              <h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+                Transactions
+              </h2>
+            </div>
           </div>
-          <ul
-            role="list"
-            className="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6"
-          >
-            {people.map((person) => (
-              <li key={person.name}>
-                <div className="space-y-4">
-                  <img
-                    className="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24"
-                    src={person.imageUrl}
-                    alt=""
-                  />
-                  <div className="space-y-2">
-                    <div className="text-xs font-medium lg:text-sm">
-                      <h3>{person.name}</h3>
-                      <p className="text-indigo-600">{person.role}</p>
-                    </div>
-                  </div>
+          <div className="relative">
+            <div className="relative md:bg-[#d3b580] md:p-6">
+              <div className="lg:grid lg:grid-cols-2 lg:gap-6">
+                <div className="prose prose-indigo prose-lg text-white lg:max-w-none">
+                  <p>
+                    Ultrices ultricies a in odio consequat egestas rutrum. Ut
+                    vitae aliquam in ipsum. Duis nullam placerat cursus risus
+                    ultrices nisi, vitae tellus in. Qui non fugiat aut minus aut
+                    rerum. Perspiciatis iusto mollitia iste minima soluta id.
+                  </p>
                 </div>
-              </li>
-            ))}
-          </ul>
+                <div className="mt-6 prose prose-indigo prose-lg text-white lg:mt-0">
+                  <p>
+                    Erat pellentesque dictumst ligula porttitor risus eget et
+                    eget. Ultricies tellus felis id dignissim eget. Est augue
+                    maecenas risus nulla ultrices congue nunc tortor.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
