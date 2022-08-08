@@ -1,24 +1,3 @@
-.instaNav {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-  }
-  
-  .navNEW {
-    padding-left: 4rem;
-    padding-right: 4rem
-  }
-  
-  
-  .n-link {
-    padding: 1rem;
-  }
-  
-  
-  
-  @media only screen and (max-width: 600px) {
-    .navNEW {
-      padding-left: 2rem;
-      padding-right: 2rem
-    }
-  
-  }
+.logo{
+  width: 60px;
+}
