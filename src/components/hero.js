@@ -14,7 +14,7 @@ function Hero() {
         <div className="flex flex-col items-center justify-center px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:pt-32 md:px-0">
           <div className="flex flex-col items-center max-w-2xl md:px-8">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-              <h2 className="max-w-lg mb-6 font-sans text-4xl leading-none tracking-tight text-gray-900 sm:text-7xl md:mx-auto h-header">
+              <h2 className="max-w-lg mb-6 font-sans text-5xl leading-none tracking-tight text-gray-900 sm:text-7xl md:mx-auto h-header">
                 Johnny & Rhoda
               </h2>
               <p className="text-sm text-gray-700 md:text-md">
