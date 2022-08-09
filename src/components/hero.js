@@ -23,7 +23,7 @@ function Hero() {
                   <h2 className="max-w-lg mb-6 font-sans text-5xl  leading-none tracking-tight text-white sm:text-7xl md:mx-auto h-header">
                     Johnny & Rhoda
                   </h2>
-                  <p className="text-sm text-indigo-100 md:text-sm">
+                  <p className="text-sm text-center text-indigo-100 md:text-sm">
                     The wedding of Johnny Otabil Aggrey and Rhoda Naa Adorkor
                     Addo humbly request your presence at their traditional
                     marriage and wedding ceremony

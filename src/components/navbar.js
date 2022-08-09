@@ -17,7 +17,7 @@ const Navbar = () => {
                 title="Our product"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Product
+               The Couple
               </a>
             </li>
             <li>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 title="Our product"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Features
+                Bridesmaid
               </a>
             </li>
             <li>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 title="Product pricing"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Pricing
+               Groomsmen
               </a>
             </li>
           </ul>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 title="About us"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
-                About us
+               Registry
               </a>
             </li>
             <li>
@@ -67,19 +67,10 @@ const Navbar = () => {
                 title="Sign in"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Sign in
+                Testimonials
               </a>
             </li>
-            <li>
-              <a
-                href="/"
-                aria-label="Sign up"
-                title="Sign up"
-                class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Sign up
-              </a>
-            </li>
+          
           </ul>
           <div class="lg:hidden">
             <button
