@@ -15,7 +15,7 @@ const Navbar = () => {
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                class="font-normal tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
+                class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Product
               </a>
@@ -25,7 +25,7 @@ const Navbar = () => {
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                class="font-normal tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
+                class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Features
               </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
                 href="/"
                 aria-label="Product pricing"
                 title="Product pricing"
-                class="font-normal tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
+                class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Pricing
               </a>
@@ -55,7 +55,7 @@ const Navbar = () => {
                 href="/"
                 aria-label="About us"
                 title="About us"
-                class="font-normal tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
+                class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
                 About us
               </a>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 href="/"
                 aria-label="Sign in"
                 title="Sign in"
-                class="font-normal tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
+                class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Sign in
               </a>
@@ -75,7 +75,7 @@ const Navbar = () => {
                 href="/"
                 aria-label="Sign up"
                 title="Sign up"
-                class="font-normal tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
+                class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Sign up
               </a>
