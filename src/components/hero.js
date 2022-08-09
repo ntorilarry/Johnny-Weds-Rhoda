@@ -20,7 +20,7 @@ function Hero() {
                   <div className="flex items-center justify-center w-12 h-12 rounded-full bg-teal-accent-400"></div>
                 </a>
                 <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-                  <h2 className="max-w-lg mb-6 font-sans text-5xl  leading-none tracking-tight text-white sm:text-7xl md:mx-auto h-header">
+                  <h2 className="max-w-lg mb-6 font-sans text-5xl text-center leading-none tracking-tight text-white sm:text-7xl md:mx-auto h-header">
                     Johnny & Rhoda
                   </h2>
                   <p className="text-sm text-center text-indigo-100 md:text-sm">
