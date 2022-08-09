@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/hero.css"
+import "../styles/hero.css";
 
 const Herosub = () => {
   return (
@@ -41,16 +41,18 @@ const Herosub = () => {
           href="/"
           aria-label="View item"
           title="View item"
-          className="relative block p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl"
+          className="relative block p-px overflow-hidden transition duration-300 transform  rounded shadow-sm hover:scale-105 group hover:shadow-xl"
         >
           <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
           <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
           <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
           <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
-          <div className="relative flex items-center justify-between p-5 bg-white rounded-sm">
+          <div className="relative flex items-center justify-between p-5 bg-white rounded-sm glass">
             <div className="pr-4">
-              <h6 className="mb-2 font-semibold leading-5">Wedding Ceremony</h6>
-              <p className="text-sm text-gray-900">
+              <h6 className="mb-2 text-white font-semibold leading-5">
+                Wedding Ceremony
+              </h6>
+              <p className="text-sm text-white">
                 Time: 17th September, 2022
                 <br />
                 Venue: ICGC CHRIST TEMPLE WEST-ABOSSEY OKAI
