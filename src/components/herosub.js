@@ -23,7 +23,7 @@ const Herosub = () => {
               <p className="text-sm text-white">
                 Time: 15th September, 2022
                 <br />
-                Venue: Asofan
+                Venue: Asofan - GW-0639-3546
               </p>
             </div>
             <div className="flex items-center justify-center">
@@ -50,12 +50,12 @@ const Herosub = () => {
           <div className="relative flex items-center justify-between p-5 bg-white rounded-sm glass">
             <div className="pr-4">
               <h6 className="mb-2 text-white font-semibold leading-5">
-                Wedding Ceremony
+                Traditional Wedding Ceremony
               </h6>
               <p className="text-sm text-white">
                 Time: 17th September, 2022
                 <br />
-                Venue: ICGC CHRIST TEMPLE WEST-ABOSSEY OKAI
+                Venue: ICGC Christ Temple West-Abossey Okai
               </p>
             </div>
             <div className="flex items-center justify-center">
