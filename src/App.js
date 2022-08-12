@@ -1,7 +1,7 @@
 import "./App.css";
 import Hero from "./components/hero";
 import Registry from "./components/registry";
-import Facts from "./components/facts";
+import Facts from "./components/bridesmaid";
 import Gallery from "./components/gallery";
 import Couples from "./components/couples";
 
