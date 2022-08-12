@@ -3,12 +3,14 @@ import Hero from "./components/hero";
 import Registry from "./components/registry";
 import Facts from "./components/facts";
 import Gallery from "./components/gallery";
+import Couples from "./components/couples";
 
 function App() {
   return (
     <div className="App">
       <Hero />
-      <Gallery/>
+      <Couples/>
+      {/* <Gallery/> */}
       <Registry />
       <Facts />
     </div>
