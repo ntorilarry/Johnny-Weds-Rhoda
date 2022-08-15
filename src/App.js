@@ -1,9 +1,9 @@
 import "./App.css";
 import Hero from "./components/hero";
-
 import Couples from "./components/couples";
 import Bridesmaid from "./components/bridesmaid";
 import Groomsmen from "./components/groomsmen";
+import Registry from "./components/registry";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Couples />
       <Bridesmaid />
       <Groomsmen />
+      <Registry/>
     </div>
   );
 }

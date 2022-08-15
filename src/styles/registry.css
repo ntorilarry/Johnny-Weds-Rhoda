@@ -1,7 +1,7 @@
-.registry{
-    font-family: 'Poppins', sans-serif;
-}
-.registry-head{
-    font-weight: 600;
-    font-size: 35px;
-}
+.test {
+    background-image: url("../assets/Group16.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
