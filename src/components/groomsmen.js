@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import Carousel from "react-elastic-carousel";
-import Afua from "../assets/afua.png";
-import Diana from "../assets/diana.png";
-import Edwina from "../assets/edwina.png";
-import Eli from "../assets/eli.png";
-import Hamdiya from "../assets/Hamdiya.png";
-import Jemima from "../assets/Jemima.png";
-import Rachael from "../assets/rachael.png";
-import Sandra from "../assets/sandra.png";
-import Selina from "../assets/selina.png";
-import Thelma from "../assets/thelma.png";
-import "../styles/bridemaid.css";
+import Airtime from "../assets/Airtime.png";
+import Andy from "../assets/andy.png";
+import Dennis from "../assets/dennis.png";
+import Emmanuel from "../assets/emmanuel.png";
+import Kwesi from "../assets/Kwesi Nana.png";
+import Michael from "../assets/michael.png";
+import Nick from "../assets/Nick.png";
+import Osei from "../assets/Osei Yaw.png";
+import Ray from "../assets/Ray.png";
+
+import "../styles/groomsmen.css";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -18,42 +18,37 @@ const breakPoints = [
   { width: 768, itemsToShow: 3 },
   { width: 1200, itemsToShow: 4 },
 ];
-class Bridesmaid extends Component {
+class Groomsmen extends Component {
   state = {
     items: [
       {
         id: 1,
-        title: "Afua",
-        imageUrl: Afua,
+        title: "Airtime",
+        imageUrl: Airtime,
       },
-      { id: 2, title: "Diana", imageUrl: Diana },
-      { id: 3, title: "Edwina", imageUrl: Edwina },
-      { id: 4, title: "Eli", imageUrl: Eli },
-      { id: 5, title: "Hamdiya", imageUrl: Hamdiya },
+      { id: 2, title: "Andy", imageUrl: Andy },
+      { id: 3, title: "Dennis", imageUrl: Dennis },
+      { id: 4, title: "Emmanuel", imageUrl: Emmanuel },
+      { id: 5, title: "Kwesi Nana", imageUrl: Kwesi },
       {
         id: 6,
-        title: "Jemima",
-        imageUrl: Jemima,
+        title: "Michael",
+        imageUrl: Michael,
       },
       {
         id: 7,
-        title: "Rachael",
-        imageUrl: Rachael,
+        title: "Ray",
+        imageUrl: Ray,
       },
       {
         id: 8,
-        title: "Sandra",
-        imageUrl: Sandra,
+        title: "Nick",
+        imageUrl: Nick,
       },
       {
         id: 9,
-        title: "Selina",
-        imageUrl: Selina,
-      },
-      {
-        id: 10,
-        title: "Thelma",
-        imageUrl: Thelma,
+        title: "Osei",
+        imageUrl: Osei,
       },
     ],
   };
@@ -64,10 +59,10 @@ class Bridesmaid extends Component {
       <div className="bg-[#E6D9BF]">
         <div
           className="max-w-7xl py-4 mx-auto px-4 sm:px-6 lg:px-8"
-          id="bridesmaid"
+          id="groomsmen"
         >
           <h2 className="max-w-lg mb-6 text-gray-900  text-3xl text-center leading-none tracking-tight sm:text-4xl md:mx-auto">
-            Bridesmaid
+            Groomsmen
           </h2>
           <Carousel breakPoints={breakPoints} itemPadding={[0, 20]}>
             {items.map((item) => (
@@ -86,4 +81,4 @@ class Bridesmaid extends Component {
     );
   }
 }
-export default Bridesmaid;
+export default Groomsmen;

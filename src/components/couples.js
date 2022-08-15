@@ -6,7 +6,7 @@ function Couples() {
   return (
     <div className="bg-[#E6D9BF]">
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-col">
+        <div class="container px-5 py-12 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
               <img
@@ -18,7 +18,7 @@ function Couples() {
             <div class="flex flex-col sm:flex-row mt-10">
               <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div class="flex flex-col items-center text-center justify-center">
-                  <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
+                  <h2 class="font-medium title-font mt-4 text-gray-900 text-3xl">
                     The Couples
                   </h2>
                   <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>

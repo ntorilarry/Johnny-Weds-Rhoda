@@ -1,9 +1,9 @@
 import "./App.css";
 import Hero from "./components/hero";
-import Registry from "./components/registry";
-import Facts from "./components/bridesmaid";
+
 import Couples from "./components/couples";
 import Bridesmaid from "./components/bridesmaid";
+import Groomsmen from "./components/groomsmen";
 
 function App() {
   return (
@@ -11,8 +11,7 @@ function App() {
       <Hero />
       <Couples />
       <Bridesmaid />
-      <Registry />
-      <Facts />
+      <Groomsmen />
     </div>
   );
 }
