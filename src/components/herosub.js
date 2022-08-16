@@ -24,7 +24,7 @@ const Herosub = () => {
         <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
           <div className="h-full p-5 rounded-r shadow-sm">
             <h6 className="mb-2 font-semibold text-white leading-5">
-              Traditional Wedding ceremony
+              Wedding ceremony
             </h6>
             <p className="text-sm text-white font-light">
               <span className="font-semibold">Date:</span> 17th September, 2022{" "}
@@ -54,7 +54,8 @@ const Herosub = () => {
               <span className="font-semibold">Date:</span> 18th September, 2022{" "}
               <br />
               <span className="font-semibold">Time:</span> 1:00 PM <br />
-              <span className="font-semibold">Venue:</span> Asofan
+              <span className="font-semibold">Venue:</span> Asofan -
+              GW-0639-3546
             </p>
           </div>
         </div>

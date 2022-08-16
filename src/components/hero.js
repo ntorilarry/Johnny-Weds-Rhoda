@@ -18,8 +18,7 @@ function Hero() {
                     Johnny & Rhoda
                   </h2>
                   <p className="text-sm text-center font-light text-indigo-100 md:text-sm">
-                    The wedding of Johnny Otabil Aggrey and Rhoda Naa Adorkor
-                    Addo humbly request your presence at their traditional
+                    we humbly request your presence at our traditional
                     marriage and wedding ceremony
                   </p>
                 </div>
