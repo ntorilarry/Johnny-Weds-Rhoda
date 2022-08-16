@@ -18,8 +18,8 @@ function Hero() {
                     Johnny & Rhoda
                   </h2>
                   <p className="text-sm text-center font-light text-indigo-100 md:text-sm">
-                    we humbly request your presence at our traditional
-                    marriage and wedding ceremony
+                    we humbly request your presence at our traditional marriage
+                    and wedding ceremony
                   </p>
                 </div>
                 <Herosub />

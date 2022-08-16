@@ -32,14 +32,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/wedding-party"
                 aria-label="Product pricing"
                 title="Product pricing"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Wedding Party
-              </a>
+              </Link>
             </li>
           </ul>
           <a
@@ -161,14 +161,14 @@ const Navbar = () => {
                         </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/wedding-party"
                           aria-label="Product pricing"
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Wedding Party
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a

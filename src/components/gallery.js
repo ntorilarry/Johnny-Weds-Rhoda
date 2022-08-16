@@ -10,10 +10,11 @@ import Gal8 from "../assets/IMG_3201.jpg";
 import Gal9 from "../assets/IMG_3216.jpg";
 import Gal10 from "../assets/IMG_3256.jpg";
 import Navbar from "./navbar";
+import "../styles/couples.css"
 
 function Gallery() {
   return (
-    <div className="bg-[#713C25]">
+    <div className="bg-[#713C25] bgcoup">
       <Navbar />
       <div className="max-w-6xl mx-auto">
         <div className="grid max-w-4xl mx-auto p-8">
