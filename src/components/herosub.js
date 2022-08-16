@@ -58,7 +58,7 @@ const Herosub = () => {
             </p>
           </div>
         </div>
-        <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
+        {/* <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
           <div className="h-full p-5 rounded-r shadow-sm">
             <h6 className="mb-2 font-semibold text-white leading-5">
               The Couple
@@ -95,7 +95,7 @@ const Herosub = () => {
           <div className="h-full p-5 rounded-r shadow-sm">
             <h6 className="mb-2 font-semibold text-white leading-5">RSVP</h6>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
