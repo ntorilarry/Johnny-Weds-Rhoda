@@ -1,60 +1,64 @@
 import React from "react";
+import Gal1 from "../assets/IMG_3110.jpg";
+import Gal2 from "../assets/IMG_3114.jpg";
+import Gal3 from "../assets/IMG_3119.jpg";
+import Gal4 from "../assets/IMG_3125-1.jpg";
+import Gal5 from "../assets/IMG_3158_1.jpg";
+import Gal6 from "../assets/IMG_3171.jpg";
+import Gal7 from "../assets/IMG_3190.jpg";
+import Gal8 from "../assets/IMG_3201.jpg";
+import Gal9 from "../assets/IMG_3216.jpg";
+import Gal10 from "../assets/IMG_3256.jpg";
+import Navbar from "./navbar";
 
 function Gallery() {
   return (
+    <div className="bg-[#713C25]">
+      <Navbar/>
     <div className="max-w-6xl mx-auto">
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <div class="flex flex-wrap md:-m-2 -m-1">
-            <div class="flex flex-wrap w-1/2">
-              <div class="md:p-2 p-1 w-1/2">
-                <img
-                  alt="gallery"
-                  class="w-full object-cover h-full object-center block"
-                  src="https://dummyimage.com/500x300"
-                />
-              </div>
-              <div class="md:p-2 p-1 w-1/2">
-                <img
-                  alt="gallery"
-                  class="w-full object-cover h-full object-center block"
-                  src="https://dummyimage.com/501x301"
-                />
-              </div>
-              <div class="md:p-2 p-1 w-full">
-                <img
-                  alt="gallery"
-                  class="w-full h-full object-cover object-center block"
-                  src="https://dummyimage.com/600x360"
-                />
-              </div>
-            </div>
-            <div class="flex flex-wrap w-1/2">
-              <div class="md:p-2 p-1 w-full">
-                <img
-                  alt="gallery"
-                  class="w-full h-full object-cover object-center block"
-                  src="https://dummyimage.com/601x361"
-                />
-              </div>
-              <div class="md:p-2 p-1 w-1/2">
-                <img
-                  alt="gallery"
-                  class="w-full object-cover h-full object-center block"
-                  src="https://dummyimage.com/502x302"
-                />
-              </div>
-              <div class="md:p-2 p-1 w-1/2">
-                <img
-                  alt="gallery"
-                  class="w-full object-cover h-full object-center block"
-                  src="https://dummyimage.com/503x303"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="grid max-w-4xl mx-auto p-8">
+        <h1 className="text-3xl p-6 text-white mx-auto">Gallery</h1>
+        <img
+          className="w-full block rounded-b"
+          src={Gal1}
+          alt="A photo of a fox"
+        />
+        <div className="text-3xl p-6"></div>
+        <img
+          className="w-full block rounded-b"
+          src={Gal2}
+          alt="A photo of a woman"
+        />
+
+        <div className="text-3xl p-6"></div>
+        <img
+          className="w-full block rounded-b"
+          src={Gal3}
+          alt="A photo of some reeds"
+        />
+
+        <div className="text-3xl p-6"></div>
+        <img
+          className="w-full block rounded-b"
+          src={Gal4}
+          alt="A photo of a man"
+        />
+
+        <div className="text-3xl p-6"></div>
+        <img
+          className="w-full block rounded-b"
+          src={Gal5}
+          alt="A photo of a forest"
+        />
+
+        <div className="text-3xl p-6"></div>
+        <img
+          className="w-full block rounded-b"
+          src={Gal6}
+          alt="A photo of a bird"
+        />
+      </div>
+    </div>
     </div>
   );
 }

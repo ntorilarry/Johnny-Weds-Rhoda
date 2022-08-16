@@ -22,14 +22,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/gallery"
                 aria-label="Our product"
                 title="Our product"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Gallery
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -151,14 +151,14 @@ const Navbar = () => {
                         </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/gallery"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Gallery
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a
