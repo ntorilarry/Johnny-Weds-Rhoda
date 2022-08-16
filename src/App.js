@@ -1,18 +1,16 @@
 import "./App.css";
 import Hero from "./components/hero";
-import Couples from "./components/couples";
-import Bridesmaid from "./components/bridesmaid";
-import Groomsmen from "./components/groomsmen";
-import Registry from "./components/registry";
 
+import { Routes, Route } from "react-router-dom";
+import Couples from "./components/couples";
+import Navbar from "./components/navbar";
 function App() {
   return (
     <div className="App">
-      <Hero />
-      <Couples />
-      <Bridesmaid />
-      <Groomsmen />
-      <Registry/>
+      <Routes>
+        <Route path="/" element={<Hero />}></Route>
+        <Route path="/the-couples" element={<Couples />}></Route>
+      </Routes>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import Badge from "../assets/monogram.png";
 function Registry() {
   return (
     <div>
-      <section className="py-12 bg-[#BE6C42] overflow-hidden md:py-20 lg:py-24 test">
+      <section className="py-12 bg-[#BE6C42] overflow-hidden md:py-20 lg:py-12 test">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative">
             <img className="badge mx-auto w-20" src={Badge} alt="" />

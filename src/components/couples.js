@@ -1,10 +1,14 @@
 import React from "react";
 import Couple from "../assets/couple.jpg";
 import "../styles/couples.css";
+import Navbar from "./navbar";
 
 function Couples() {
   return (
     <div className="bg-[#E6D9BF]">
+      <div className="text-black">
+        <Navbar />
+      </div>
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-12 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">

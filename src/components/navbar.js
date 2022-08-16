@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/navbar.css";
 import Logo from "../assets/monogram.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,14 +12,14 @@ const Navbar = () => {
         <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
+              <Link
+                to="/the-couples"
                 aria-label="Our product"
                 title="Our product"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
-               The Couple
-              </a>
+                The Couple
+              </Link>
             </li>
             <li>
               <a
@@ -27,7 +28,7 @@ const Navbar = () => {
                 title="Our product"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Bridesmaid
+                Gallery
               </a>
             </li>
             <li>
@@ -37,7 +38,7 @@ const Navbar = () => {
                 title="Product pricing"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
-               Groomsmen
+                Wedding Party
               </a>
             </li>
           </ul>
@@ -57,7 +58,7 @@ const Navbar = () => {
                 title="About us"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
-               Registry
+                Registry
               </a>
             </li>
             <li>
@@ -67,10 +68,19 @@ const Navbar = () => {
                 title="Sign in"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Testimonials
+                Event Coordinators
               </a>
             </li>
-          
+            <li>
+              <a
+                href="/"
+                aria-label="Sign in"
+                title="Sign in"
+                class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                RSVP
+              </a>
+            </li>
           </ul>
           <div class="lg:hidden">
             <button
@@ -131,14 +141,14 @@ const Navbar = () => {
                   <nav>
                     <ul class="space-y-4">
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/the-couples"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Product
-                        </a>
+                          The Couple
+                        </Link>
                       </li>
                       <li>
                         <a
@@ -147,7 +157,7 @@ const Navbar = () => {
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Features
+                          Gallery
                         </a>
                       </li>
                       <li>
@@ -157,7 +167,7 @@ const Navbar = () => {
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Pricing
+                          Wedding Party
                         </a>
                       </li>
                       <li>
@@ -167,7 +177,27 @@ const Navbar = () => {
                           title="About us"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          About us
+                          Registy
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          aria-label="About us"
+                          title="About us"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Event Cordinators
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          aria-label="About us"
+                          title="About us"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          RSVP
                         </a>
                       </li>
                     </ul>
