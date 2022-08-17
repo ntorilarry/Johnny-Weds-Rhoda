@@ -23,6 +23,7 @@ import Nick from "../assets/Nick.png";
 import Osei from "../assets/Osei Yaw.png";
 import Boadi from "../assets/boadi.png";
 import Ray from "../assets/Ray.png";
+import Eunice from "../assets/eunice.png"
 import "../styles/bridemaid.css";
 import Navbar from "./navbar";
 
@@ -201,6 +202,19 @@ const Wedparty = () => {
                 Adeline Naa Kwarma Martey
               </p>
               <p className="mb-5 text-xs text-white">Flower Girl</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Eunice}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Eunice Aikins</p>
+              <p className="mb-5 text-xs text-white">Groomslady</p>
             </div>
           </div>
           <div>
