@@ -6,7 +6,7 @@ function Rsvp() {
     <div className="bg-[#BE6C42]">
       <Navbar />
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <h2 className="max-w-lg mb-6 font-sans text-3xl text-center leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
+        <h2 className="max-w-lg mb-6 font-semibold text-3xl text-center leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
           RSVP
         </h2>
         <div className="grid gap-8 row-gap-5 lg:grid-cols-3">

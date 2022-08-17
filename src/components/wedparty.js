@@ -306,7 +306,7 @@ const Wedparty = () => {
               />
             </div>
             <div className="flex flex-col sm:text-center">
-              <p className="text-lg font-bold text-white">Micheal Tinadue</p>
+              <p className="text-lg font-bold text-white">Micheal Tinadu</p>
               <p className="mb-5 text-xs text-white">Groomsman</p>
             </div>
           </div>
