@@ -17,7 +17,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />}></Route>
         <Route path="/wedding-party" element={<Wedparty />}></Route>
         <Route path="/registry" element={<Registry />}></Route>
-        <Route path="/event-coordinators" element={<EventCord/>}></Route>
+        <Route path="/event-coordinators" element={<EventCord />}></Route>
       </Routes>
     </div>
   );
