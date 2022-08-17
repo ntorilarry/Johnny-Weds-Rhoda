@@ -23,7 +23,7 @@ function Hero() {
                   </p>
                 </div>
                 <Herosub />
-                <Location />
+                {/* <Location /> */}
               </div>
             </div>
           </div>

@@ -1,13 +1,12 @@
 import "./App.css";
 import Hero from "./components/hero";
-
 import { Routes, Route } from "react-router-dom";
 import Couples from "./components/couples";
-
 import Gallery from "./components/gallery";
 import Wedparty from "./components/wedparty";
 import Registry from "./components/registry";
 import EventCord from "./components/eventCord";
+import Rsvp from "./components/rsvp";
 function App() {
   return (
     <div className="App">
@@ -18,6 +17,7 @@ function App() {
         <Route path="/wedding-party" element={<Wedparty />}></Route>
         <Route path="/registry" element={<Registry />}></Route>
         <Route path="/event-coordinators" element={<EventCord />}></Route>
+        <Route path="/rsvp" element={<Rsvp />}></Route>
       </Routes>
     </div>
   );
