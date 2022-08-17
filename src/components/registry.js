@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/registry.css";
-import Badge from "../assets/monogram.png";
+import Badge from "../assets/monoCircle.png";
+import Navbar from "./navbar";
 
 function Registry() {
   return (
-    <div>
+    <div className="bg-[#BE6C42]">
+      <Navbar />
       <section className="py-12 bg-[#BE6C42] overflow-hidden md:py-20 lg:py-12 test">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative">
@@ -12,11 +14,11 @@ function Registry() {
             <blockquote className="mt-10">
               <div className="max-w-4xl mx-auto text-center text-2xl leading-9 font-medium text-[#F7E7CE]">
                 <p className="testim">
-                  Your presence is already such a big blessing for us and should
+                  "Your presence is already such a big blessing for us and should
                   you decide to bring us a gift on our special day, please note
                   that cash gifts are encouraged. We appreciate your
                   understanding and we can’t wait to share this new marriage
-                  with you
+                  with you"<br/>Thank You
                 </p>
               </div>
               <footer className="mt-8">

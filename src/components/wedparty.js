@@ -11,8 +11,8 @@ import Sandra from "../assets/sandra.png";
 import Selina from "../assets/selina.png";
 import Thelma from "../assets/thelma.png";
 import Josephine from "../assets/josephine.png";
-import Aba from "../assets/Aba Takyiwaa Osam.png"
-import Tagoe from "../assets/thelma tagoe.png"
+import Aba from "../assets/Aba Takyiwaa Osam.png";
+import Tagoe from "../assets/thelma tagoe.png";
 import "../styles/bridemaid.css";
 import Navbar from "./navbar";
 
@@ -187,7 +187,9 @@ const Wedparty = () => {
               />
             </div>
             <div className="flex flex-col sm:text-center">
-              <p className="text-lg font-bold text-white">Aba Takyiwaa Osam-Tewiah</p>
+              <p className="text-lg font-bold text-white">
+                Aba Takyiwaa Osam-Tewiah
+              </p>
               <p className="mb-5 text-xs text-white">Event Coordinator 1</p>
             </div>
           </div>

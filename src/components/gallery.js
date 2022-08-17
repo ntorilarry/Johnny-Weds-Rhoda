@@ -10,7 +10,7 @@ import Gal8 from "../assets/IMG_3201.jpg";
 import Gal9 from "../assets/IMG_3216.jpg";
 import Gal10 from "../assets/IMG_3256.jpg";
 import Navbar from "./navbar";
-import "../styles/couples.css"
+import "../styles/couples.css";
 
 function Gallery() {
   return (
