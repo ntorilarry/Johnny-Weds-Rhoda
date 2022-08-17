@@ -14,7 +14,7 @@ import "../styles/couples.css"
 
 function Gallery() {
   return (
-    <div className="bg-[#713C25] bgcoup">
+    <div className="bg-[#BE6C42] ">
       <Navbar />
       <div className="max-w-6xl mx-auto">
         <div className="grid max-w-4xl mx-auto p-8">

@@ -6,6 +6,7 @@ import Couples from "./components/couples";
 
 import Gallery from "./components/gallery";
 import Wedparty from "./components/wedparty";
+import Registry from "./components/registry";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
         <Route path="/the-couples" element={<Couples />}></Route>
         <Route path="/gallery" element={<Gallery />}></Route>
         <Route path="/wedding-party" element={<Wedparty />}></Route>
+        <Route path="/registry" element={<Registry />}></Route>
       </Routes>
     </div>
   );

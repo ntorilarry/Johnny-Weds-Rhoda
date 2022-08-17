@@ -52,14 +52,14 @@ const Navbar = () => {
           </a>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
+              <Link
+                to="/registry"
                 aria-label="About us"
                 title="About us"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Registry
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -171,14 +171,14 @@ const Navbar = () => {
                         </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/"
                           aria-label="About us"
                           title="About us"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Registy
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a

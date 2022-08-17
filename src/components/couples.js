@@ -5,7 +5,7 @@ import Navbar from "./navbar";
 
 function Couples() {
   return (
-    <div className="bg-[#713C25] bgcoup">
+    <div className="bg-[#BE6C42]">
       <div className="text-black">
         <Navbar />
       </div>
