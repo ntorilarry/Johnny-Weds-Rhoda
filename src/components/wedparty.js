@@ -21,6 +21,7 @@ import Kwesi from "../assets/Kwesi Nana.png";
 import Michael from "../assets/michael.png";
 import Nick from "../assets/Nick.png";
 import Osei from "../assets/Osei Yaw.png";
+import Boadi from "../assets/boadi.png";
 import Ray from "../assets/Ray.png";
 import "../styles/bridemaid.css";
 import Navbar from "./navbar";
@@ -215,6 +216,136 @@ const Wedparty = () => {
                 Ransford Nii Kpakpo Addo
               </p>
               <p className="mb-5 text-xs text-white">Ring Security Agent</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Airtime}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Airtime</p>
+              <p className="mb-5 text-xs text-white">Groomsmen</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Andy}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Andy Muller</p>
+              <p className="mb-5 text-xs text-white">Groomsmen</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Ray}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Raymond Bakpa</p>
+              <p className="mb-5 text-xs text-white">Groomsmen</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Nick}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Nicholas Narh</p>
+              <p className="mb-5 text-xs text-white">Groomsmen</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Kwesi}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Stephen Aggrey</p>
+              <p className="mb-5 text-xs text-white">Groomsmen</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Michael}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Micheal Tinadue</p>
+              <p className="mb-5 text-xs text-white">Groomsmen</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Dennis}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Ekow Dennis</p>
+              <p className="mb-5 text-xs text-white">Groomsmen</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Boadi}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Boadi Dankwah</p>
+              <p className="mb-5 text-xs text-white">Groomsmen</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Emmanuel}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Emmanuel</p>
+              <p className="mb-5 text-xs text-white">Groomsmen</p>
+            </div>
+          </div>
+          <div>
+            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+              <img
+                className="absolute object-cover w-full h-full rounded"
+                src={Osei}
+                alt="Person"
+              />
+            </div>
+            <div className="flex flex-col sm:text-center">
+              <p className="text-lg font-bold text-white">Osei</p>
+              <p className="mb-5 text-xs text-white">Groomsmen</p>
             </div>
           </div>
         </div>
