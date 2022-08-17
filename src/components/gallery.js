@@ -16,6 +16,13 @@ import Gal14 from "../assets/3B9A9610-min.JPG";
 import Gal15 from "../assets/3B9A9611-min.JPG";
 import Gal16 from "../assets/3B9A9613-min.JPG";
 import Gal17 from "../assets/3B9A9619-min.JPG";
+import Gal18 from "../assets/gal18.jpg";
+import Gal19 from "../assets/gal19.jpg";
+import Gal20 from "../assets/gal20.jpg";
+import Gal21 from "../assets/gal21.jpg";
+import Gal22 from "../assets/gal22.jpg";
+import Gal23 from "../assets/gal23.jpg";
+import Gal24 from "../assets/gal24.jpg";
 import Navbar from "./navbar";
 import "../styles/couples.css";
 
@@ -67,6 +74,20 @@ function Gallery() {
           <img className="w-full block rounded-b" src={Gal16} alt="P" />
           <div className="text-3xl p-6"></div>
           <img className="w-full block rounded-b" src={Gal17} alt="Q" />
+          <div className="text-3xl p-6"></div>
+          <img className="w-full block rounded-b" src={Gal18} alt="R" />
+          <div className="text-3xl p-6"></div>
+          <img className="w-full block rounded-b" src={Gal19} alt="S" />
+          <div className="text-3xl p-6"></div>
+          <img className="w-full block rounded-b" src={Gal20} alt="T" />
+          <div className="text-3xl p-6"></div>
+          <img className="w-full block rounded-b" src={Gal21} alt="U" />
+          <div className="text-3xl p-6"></div>
+          <img className="w-full block rounded-b" src={Gal22} alt="V" />
+          <div className="text-3xl p-6"></div>
+          <img className="w-full block rounded-b" src={Gal23} alt="W" />
+          <div className="text-3xl p-6"></div>
+          <img className="w-full block rounded-b" src={Gal24} alt="X" />
         </div>
       </div>
     </div>
