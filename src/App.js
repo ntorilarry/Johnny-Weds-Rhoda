@@ -7,6 +7,7 @@ import Couples from "./components/couples";
 import Gallery from "./components/gallery";
 import Wedparty from "./components/wedparty";
 import Registry from "./components/registry";
+import EventCord from "./components/eventCord";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />}></Route>
         <Route path="/wedding-party" element={<Wedparty />}></Route>
         <Route path="/registry" element={<Registry />}></Route>
+        <Route path="/event-coordinators" element={<EventCord/>}></Route>
       </Routes>
     </div>
   );

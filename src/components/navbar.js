@@ -62,14 +62,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/event-coordinators"
                 aria-label="Sign in"
                 title="Sign in"
                 class="font-normal tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Event Coordinators
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -181,14 +181,14 @@ const Navbar = () => {
                         </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/event-coordinators"
                           aria-label="About us"
                           title="About us"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Event Coordinators
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a

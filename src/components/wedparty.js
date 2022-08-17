@@ -11,8 +11,17 @@ import Sandra from "../assets/sandra.png";
 import Selina from "../assets/selina.png";
 import Thelma from "../assets/thelma.png";
 import Josephine from "../assets/josephine.png";
-import Aba from "../assets/Aba Takyiwaa Osam.png";
-import Tagoe from "../assets/thelma tagoe.png";
+import Adeline from "../assets/adeline.png";
+import Ransford from "../assets/ransford.png";
+import Airtime from "../assets/Airtime.png";
+import Andy from "../assets/andy.png";
+import Dennis from "../assets/dennis.png";
+import Emmanuel from "../assets/emmanuel.png";
+import Kwesi from "../assets/Kwesi Nana.png";
+import Michael from "../assets/michael.png";
+import Nick from "../assets/Nick.png";
+import Osei from "../assets/Osei Yaw.png";
+import Ray from "../assets/Ray.png";
 import "../styles/bridemaid.css";
 import Navbar from "./navbar";
 
@@ -182,28 +191,30 @@ const Wedparty = () => {
             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
               <img
                 className="absolute object-cover w-full h-full rounded"
-                src={Aba}
+                src={Adeline}
                 alt="Person"
               />
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">
-                Aba Takyiwaa Osam-Tewiah
+                Adeline Naa Kwarma Martey
               </p>
-              <p className="mb-5 text-xs text-white">Event Coordinator 1</p>
+              <p className="mb-5 text-xs text-white">Flower Girl</p>
             </div>
           </div>
           <div>
             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
               <img
                 className="absolute object-cover w-full h-full rounded"
-                src={Tagoe}
+                src={Ransford}
                 alt="Person"
               />
             </div>
             <div className="flex flex-col sm:text-center">
-              <p className="text-lg font-bold text-white">Thelma Tagoe</p>
-              <p className="mb-5 text-xs text-white">Event Coordinator 2</p>
+              <p className="text-lg font-bold text-white">
+                Ransford Nii Kpakpo Addo
+              </p>
+              <p className="mb-5 text-xs text-white">Ring Security Agent</p>
             </div>
           </div>
         </div>
