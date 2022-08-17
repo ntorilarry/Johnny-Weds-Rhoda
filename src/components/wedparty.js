@@ -228,7 +228,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Airtime</p>
-              <p className="mb-5 text-xs text-white">Groomsmen</p>
+              <p className="mb-5 text-xs text-white">Groomsman</p>
             </div>
           </div>
           <div>
@@ -241,7 +241,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Andy Muller</p>
-              <p className="mb-5 text-xs text-white">Groomsmen</p>
+              <p className="mb-5 text-xs text-white">Groomsman</p>
             </div>
           </div>
           <div>
@@ -254,7 +254,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Raymond Bakpa</p>
-              <p className="mb-5 text-xs text-white">Groomsmen</p>
+              <p className="mb-5 text-xs text-white">Bestman</p>
             </div>
           </div>
           <div>
@@ -267,7 +267,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Nicholas Narh</p>
-              <p className="mb-5 text-xs text-white">Groomsmen</p>
+              <p className="mb-5 text-xs text-white">Groomsman</p>
             </div>
           </div>
           <div>
@@ -280,7 +280,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Stephen Aggrey</p>
-              <p className="mb-5 text-xs text-white">Groomsmen</p>
+              <p className="mb-5 text-xs text-white">Groomsman</p>
             </div>
           </div>
           <div>
@@ -293,7 +293,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Micheal Tinadue</p>
-              <p className="mb-5 text-xs text-white">Groomsmen</p>
+              <p className="mb-5 text-xs text-white">Groomsman</p>
             </div>
           </div>
           <div>
@@ -306,7 +306,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Ekow Dennis</p>
-              <p className="mb-5 text-xs text-white">Groomsmen</p>
+              <p className="mb-5 text-xs text-white">Groomsman</p>
             </div>
           </div>
           <div>
@@ -319,7 +319,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Boadi Dankwah</p>
-              <p className="mb-5 text-xs text-white">Groomsmen</p>
+              <p className="mb-5 text-xs text-white">Groomsman</p>
             </div>
           </div>
           <div>
@@ -332,7 +332,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Emmanuel</p>
-              <p className="mb-5 text-xs text-white">Groomsmen</p>
+              <p className="mb-5 text-xs text-white">Groomsman</p>
             </div>
           </div>
           <div>
@@ -345,7 +345,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Osei</p>
-              <p className="mb-5 text-xs text-white">Groomsmen</p>
+              <p className="mb-5 text-xs text-white">Groomsman</p>
             </div>
           </div>
         </div>
