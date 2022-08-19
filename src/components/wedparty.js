@@ -43,7 +43,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Edwina Bonney</p>
-              <p className="mb-5 text-xs text-white">Bridemaid</p>
+              <p className="mb-5 text-xs text-white">Bridesmaid</p>
             </div>
           </div>
           <div>
@@ -69,7 +69,7 @@ const Wedparty = () => {
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold text-white">Sandra Okine</p>
-              <p className="mb-5 text-xs text-white">Bridemaid</p>
+              <p className="mb-5 text-xs text-white">Bridesmaid</p>
             </div>
           </div>
           <div>

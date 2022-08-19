@@ -7,45 +7,66 @@ function Location() {
       <h2 className="max-w-lg mb-6 font-sans text-5xl text-center leading-none tracking-tight text-white sm:text-7xl md:mx-auto h-header">
         Location
       </h2>
-      <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24  lg:py-6">
-        <div className="flex flex-col mx-auto items-center justify-between lg:flex-row">
-          <div className="mb-10 mx-auto lg:max-w-lg lg:pr-5 lg:mb-0 locat ">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7942.06433635109!2d-0.24231862654830313!3d5.562250483868634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf999d3705ea53%3A0x37e62ad364d48b56!2sICGC%20Upper%20Room%20Temple!5e0!3m2!1sen!2sgh!4v1660744733703!5m2!1sen!2sgh"
-              width="400"
-              height="300"
-              style={{ border: "0" }}
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              frameborder="0"
-              title="map"
-              marginheight="0"
-              marginwidth="0"
-              scrolling="no"
-              className="mapp"
-            ></iframe>
-            <div className="flex flex-col items-center md:flex-row"></div>
-          </div>
-          <div className="relative lg:w-1/2">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.4082403267907!2d-0.2836803852336264!3d5.6539368959015315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x14410c91a95da933!2zNcKwMzknMTQuMiJOIDDCsDE2JzUzLjQiVw!5e0!3m2!1sen!2sgh!4v1660744370198!5m2!1sen!2sgh"
-              width="400"
-              height="300"
-              style={{ border: "0" }}
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              frameborder="0"
-              title="map"
-              marginheight="0"
-              marginwidth="0"
-              scrolling="no"
-              className="mapp"
-            ></iframe>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-6 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/3">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+               Loation
+                </h2>
+                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+                Christ Temple, International Central Gospel Church
+                </h1>
+                {/* <p class="leading-relaxed mb-3">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p> */}
+                <a href="https://goo.gl/maps/PKhcnHw3X9755Vxh7" class="text-indigo-500 inline-flex items-center">
+                 View Loation
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4"></div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/3">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  CATEGORY
+                </h2>
+                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+                  Ennui Snackwave Thundercats
+                </h1>
+                <p class="leading-relaxed mb-3">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+                <a class="text-indigo-500 inline-flex items-center">
+                  Learn More
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4"></div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/3">
+              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  CATEGORY
+                </h2>
+                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+                  Selvage Poke Waistcoat Godard
+                </h1>
+                <p class="leading-relaxed mb-3">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+                <a class="text-indigo-500 inline-flex items-center">
+                  Learn More
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4"></div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

@@ -18,6 +18,12 @@ const Herosub = () => {
                 <span className="font-semibold">Venue:</span> Asofan -
                 GW-0639-3546
               </p>
+              <a
+                href="https://maps.google.com/maps?q=5.653936862945557%2C-0.2814917266368866&z=17&hl=en"
+                class="text-[#f09020] inline-flex items-center"
+              >
+                View Location
+              </a>
             </div>
           </div>
         </a>
@@ -33,6 +39,12 @@ const Herosub = () => {
               <span className="font-semibold">Venue:</span> ICGC Christ Temple
               West-Abossey Okai
             </p>
+            <a
+              href="https://goo.gl/maps/PKhcnHw3X9755Vxh7"
+              class="text-[#f09020] inline-flex items-center"
+            >
+              View Location
+            </a>
           </div>
         </div>
         <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
@@ -43,6 +55,9 @@ const Herosub = () => {
             <p className="text-sm text-white font-light">
               <span className="font-semibold">Venue:</span> Accra Digital Center
             </p>
+            <a href="https://goo.gl/maps/WiPMVLPWnKfVfiwm7" class="text-[#f09020] inline-flex items-center">
+                 View Location
+                </a>
           </div>
         </div>
         <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
@@ -57,46 +72,14 @@ const Herosub = () => {
               <span className="font-semibold">Venue:</span> Asofan -
               GW-0639-3546
             </p>
+            <a
+              href="https://maps.google.com/maps?q=5.653936862945557%2C-0.2814917266368866&z=17&hl=en"
+              class="text-[#f09020] inline-flex items-center"
+            >
+              View Location
+            </a>
           </div>
         </div>
-        {/* <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
-          <div className="h-full p-5 rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold text-white leading-5">
-              The Couple
-            </h6>
-          </div>
-        </div>
-        <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
-          <div className="h-full p-5 rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold text-white leading-5">Gallery</h6>
-          </div>
-        </div>
-        <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
-          <div className="h-full p-5 rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold text-white leading-5">
-              Wedding Party
-            </h6>
-          </div>
-        </div>
-        <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
-          <div className="h-full p-5 rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold text-white leading-5">
-              Registry
-            </h6>
-          </div>
-        </div>
-        <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
-          <div className="h-full p-5 rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold text-white leading-5">
-              Event Coordinators
-            </h6>
-          </div>
-        </div>
-        <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">
-          <div className="h-full p-5 rounded-r shadow-sm">
-            <h6 className="mb-2 font-semibold text-white leading-5">RSVP</h6>
-          </div>
-        </div> */}
       </div>
     </div>
   );

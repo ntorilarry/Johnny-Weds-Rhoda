@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/hero.css";
 import Herosub from "./herosub";
-import Location from "./location";
 import Navbar from "./navbar";
 
 function Hero() {
@@ -23,7 +22,6 @@ function Hero() {
                   </p>
                 </div>
                 <Herosub />
-                <Location />
               </div>
             </div>
           </div>
