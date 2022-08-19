@@ -36,8 +36,8 @@ const Herosub = () => {
               <span className="font-semibold">Date:</span> 17th September, 2022{" "}
               <br />
               <span className="font-semibold">Time:</span> 1:30 PM <br />
-              <span className="font-semibold">Venue:</span> ICGC Christ Temple
-              West-Abossey Okai
+              <span className="font-semibold">Venue:</span> Christ Temple,
+              International Central Gospel Church
             </p>
             <a
               href="https://goo.gl/maps/PKhcnHw3X9755Vxh7"
@@ -55,9 +55,12 @@ const Herosub = () => {
             <p className="text-sm text-white font-light">
               <span className="font-semibold">Venue:</span> Accra Digital Center
             </p>
-            <a href="https://goo.gl/maps/WiPMVLPWnKfVfiwm7" class="text-[#f09020] inline-flex items-center">
-                 View Location
-                </a>
+            <a
+              href="https://goo.gl/maps/WiPMVLPWnKfVfiwm7"
+              class="text-[#f09020] inline-flex items-center"
+            >
+              View Location
+            </a>
           </div>
         </div>
         <div className="duration-300 transform bg-white  hover:-translate-y-2 glass">

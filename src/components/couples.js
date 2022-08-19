@@ -32,6 +32,9 @@ function Couples() {
                 </div>
               </div>
               <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-white sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                <h2 className=" font-medium mb-2 text-4xl text-center leading-none tracking-tight text-white sm:text-4xl h-header ">
+                  -Johnny-
+                </h2>
                 <p class="leading-relaxed text-sm mb-4 text-white ">
                   "Time and time again, I have to pinch myself when I see you
                   next to me. You are my dream come true. Thank you for stealing
@@ -45,6 +48,9 @@ function Couples() {
                   really saying is that I love you. I love you so damn much that
                   it is starting to steal other words’ meanings."
                 </p>
+                <h2 className=" font-medium mb-2 text-4xl text-center leading-none tracking-tight text-white sm:text-4xl h-header ">
+                  -Rhoda-
+                </h2>
                 <p class="leading-relaxed text-sm mb-4 text-white ">
                   ""Love you not only for what you are but for what I am when I
                   am with you.” – Roy Croft There isn’t one person in the world
